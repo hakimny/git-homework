@@ -38,3 +38,15 @@ print(string_for_slicing[start_slicing_index:])
 for item in list_for_slicing:
 	start_slicing_index = len(item) -4
 	print(item[start_slicing_index:])
+
+primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37]
+subset = primes[0:12:3]
+print("subset", subset)
+subset = primes[2:12:3]
+print("subset", subset)
+
+#Overloading
+
+counts = [2, 4, 6, 8, 10]
+repeats = counts * 2
+print(repeats)
